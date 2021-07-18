@@ -1,6 +1,6 @@
 **Relevel Quora Clone – Java Spring Boot**
-**
-Problem Statement:**
+
+**Problem Statement:**
 
 Relevel is planning to build a social media discussion app like Quora.You have to design & build the backend for this application. It should have ability for the users to ask a question , upvote a question , answer a question , follow  a user etc.
 
@@ -8,29 +8,28 @@ Your task is to go through below templates/stories and create this Quora clone a
 
 The tech stack required is Java and Spring Boot. Preferred IDE is Intellij/Eclipse to import the project directly. Postman tool to test the REST APIs. Make sure maven and .m2 etc are configured on local.
 
-**
-How to Set up the Application:**
+**How to Set up the Application:**
 
 To get ready with building the application a basic or boilerplate template code is provided below.
 Template Repo Link: https://github.com/RelevelBackendTest/quora_clone
 Git clone the project from above location to your local system and import it any one of the IDE to get started.
   
 Once you clone the application, then run the main class of the application  as a Java Application. The default port is set to 8080 for this application , and there is a sample endpoint to test the set up is complete. Open the sample URL localhost:8080\ping in browser to see a message “Ping is Successful” . This ensures the set up is complete.
-**
-Database Set Up :**
+
+**Database Set Up :**
 The application is configured with an in-memory H2 Database .Dependency for the database is already added in the pom.xml file. You can access the console of the H2 database using the following link 
 
-URL for H2 Database: localhost:8080/h2-console
+**URL for H2 Database: localhost:8080/h2-console
 Username : sa
 Password : password
-
+**
 **Note** : You can create table for your problem statements using this database.
 
 **Problem Breakdown:**
-**
-Template-1: User’s Question Creation and its related functionality**
-**
-1.Story-1: Asking a question by the user (~30min)**
+
+**Template-1: User’s Question Creation and its related functionality**
+
+**1.Story-1: Asking a question by the user (~30min)**
  As a user I should be able to ask a question with different tags.
       The task is to create an endpoint localhost:8080/ask to post a question.
 1.	Choose appropriate HTTP methods (GET,POST,PUT,DELETE) to hit this URL.
